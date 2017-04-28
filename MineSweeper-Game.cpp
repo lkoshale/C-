@@ -198,51 +198,6 @@ void Mat:: Reveal(int r,int c)
 
 
 
-/*
-pair<int,bool> Mat:: Reveal(int r,int c)
-{
-	cell* curr = (*this)(r,c);
-	
-	int i,j;
-	bool m = false;
-	int num=0;
-	int Mn = 0;
-	
-	i = r-1;
-	while(i>=0 && i<n && i<=r+1){
-		j = c-1;
-		while(j>=0 && j<n && j <= c+1)
-		{
-			if(i==r && j==c)
-			{
-			
-			}
-			else{
-				cell* temp = (*this)(i,j);
-				
-				if(temp->mine == true){
-					m = true;
-					Mn++;
-					break;
-				}
-				else if(m == false){
-					num++;
-				}
-			
-			
-			}
-			
-			j++;
-		}
-		
-		i++;
-	}
-
-	//pair of bool,int
-	return make_pair(m,num);
-}
-*/
-
 int main()
 {
 	int n,m;
