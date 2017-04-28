@@ -1,2 +1,2 @@
 # C++
-introduction to object oriented programming and STL 
+object oriented programming Algorithms and use of STL 
