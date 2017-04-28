@@ -1,4 +1,13 @@
 
+
+/****************
+
+given a regex, simulated NFA for regex
+then convert NFA to DFA
+given a regex checks wheather it matches ot not for given regex
+
+*****************/
+
 /**
 
 Regular Expression
